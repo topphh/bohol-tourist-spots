@@ -1,0 +1,19 @@
+
+[
+    {
+        "name": "Chocolate Hills",
+        "address": "Carmin Bohol",
+        "latitude": "9.8174",
+        "longitude": "124.1435",
+        "description": "The hills are located throughout the towns of Carmen, Batuan and Sagbayan and consist of about 1,776 mounds of the same general shape. During the dry season when precipitation in inadequate,the grass-covered hills turn chocolate brown,hence the name in reference to a branded confection.",
+        "imageSource": "res/images/chocolate-hills.jpg"
+    },
+    {
+        "name": "Sagbayan Peak",
+        "address": "Sagbayan Bohol",
+        "latitude": "9.96096",
+        "longitude": "124.05667",
+        "description": "kini ang sagbayan peak hagooo",
+        "imageSource": "res/images/title-icon.png"
+    }
+]
