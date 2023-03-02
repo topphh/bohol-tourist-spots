@@ -16,7 +16,7 @@ var title_layer = L.tileLayer(
 
 var chocolatehills = L.marker([9.8174, 124.1435], {}).addTo(map);
 var popup1 = L.popup({"maxWidth": "100%"});
-var popup_html = $(`<div id="popup_html" style="width: 100.0%; height: 100.0%;"><h3>Chocolate Hills</h3><img src="data/images/chocolate-hills.jpg" width="240" height="180">
+var popup_html = $(`<div id="popup_html" style="width: 100.0%; height: 100.0%;"><h3>Chocolate Hills</h3><img src="res/images/chocolate-hills.jpg" width="240" height="180">
                     <div>The hills are located throughout the towns of Carmen, 
                     Batuan and Sagbayan and consist of about 1,776 mounds of the same general shape. 
                     During the dry season when precipitation in inadequate,
