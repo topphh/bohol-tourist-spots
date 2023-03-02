@@ -4,161 +4,28 @@
 <head>
     <title>Bohol Tourist Spots</title>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
-
         <script>
             L_NO_TOUCH = false;
             L_DISABLE_3D = false;
         </script>
-    
-    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
-    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
-    <!-- leaflet JS-->
+    <!-- leaflet JS and CSS-->
     <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
 
     <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
-
-    <!-- leaflet CSS-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
-    
-            <meta name="viewport" content="width=device-width,
-                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-            <style>
-                #map_cb2a4339fe831da09c030bdc2c7265d5 {
-                    position: relative;
-                    width: 100.0%;
-                    height: 100.0%;
-                    left: 0.0%;
-                    top: 0.0%;
-                }
-                .leaflet-container { font-size: 1rem; }
-            </style>
-        
+    <link rel="stylesheet" href="style.css"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 </head>
 <body>
-    
-    
-            <div class="folium-map" id="map_cb2a4339fe831da09c030bdc2c7265d5" ></div>
-        
+            <div>Tourist Spots in Bohol</div>
+            <div class="folium-map" id="map" ></div>
 </body>
-<script>
-    
-    
-            var map_cb2a4339fe831da09c030bdc2c7265d5 = L.map(
-                "map_cb2a4339fe831da09c030bdc2c7265d5",
-                {
-                    center: [9.8347, 124.2829],
-                    crs: L.CRS.EPSG3857,
-                    zoom: 10,
-                    zoomControl: true,
-                    preferCanvas: false,
-                }
-            );
-
-            
-
-        
-    
-            var tile_layer_63dec845535abaa4d4b8c8621a1b33cf = L.tileLayer(
-                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
-                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
-            ).addTo(map_cb2a4339fe831da09c030bdc2c7265d5);
-        
-    
-            var marker_ae9d0b3727025190d47d9d2f704fe7cb = L.marker(
-                [9.8174, 124.1435],
-                {}
-            ).addTo(map_cb2a4339fe831da09c030bdc2c7265d5);
-        
-    
-        var popup_943f0c6bbe8a2bd097b32fc238130cc0 = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_b49f225b0d424cc339d3dab1fe511406 = $(`<div id="html_b49f225b0d424cc339d3dab1fe511406" style="width: 100.0%; height: 100.0%;"><img src="https://source.unsplash.com/240x180/?chocolate,hills" width="240" height="180"></div>`)[0];
-                popup_943f0c6bbe8a2bd097b32fc238130cc0.setContent(html_b49f225b0d424cc339d3dab1fe511406);
-            
-        
-
-        marker_ae9d0b3727025190d47d9d2f704fe7cb.bindPopup(popup_943f0c6bbe8a2bd097b32fc238130cc0)
-        ;
-
-        
-    
-    
-            marker_ae9d0b3727025190d47d9d2f704fe7cb.bindTooltip(
-                `<div>
-                     Chocolate Hills
-Click for picture
-                 </div>`,
-                {"sticky": true}
-            );
-        
-    
-            var marker_0bb26457e613f46de50938ce649f9ded = L.marker(
-                [9.5542, 123.7729],
-                {}
-            ).addTo(map_cb2a4339fe831da09c030bdc2c7265d5);
-        
-    
-        var popup_bd54166a58209d8a0c944b0d6b65598d = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_27245f2d53c1da4ab7a4d117bd864384 = $(`<div id="html_27245f2d53c1da4ab7a4d117bd864384" style="width: 100.0%; height: 100.0%;"><img src="https://source.unsplash.com/240x180/?beach,alona" width="240" height="180"></div>`)[0];
-                popup_bd54166a58209d8a0c944b0d6b65598d.setContent(html_27245f2d53c1da4ab7a4d117bd864384);
-            
-        
-
-        marker_0bb26457e613f46de50938ce649f9ded.bindPopup(popup_bd54166a58209d8a0c944b0d6b65598d)
-        ;
-
-        
-    
-    
-            marker_0bb26457e613f46de50938ce649f9ded.bindTooltip(
-                `<div>
-                     Alona Beach
-Click for picture
-                 </div>`,
-                {"sticky": true}
-            );
-        
-    
-            var marker_ef3aeb6ced87232774c43c8d9faaea6f = L.marker(
-                [9.6659, 124.1948],
-                {}
-            ).addTo(map_cb2a4339fe831da09c030bdc2c7265d5);
-        
-    
-        var popup_22968401dfc53afe0b4561ff804323a3 = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_02be1ae55f594c9ab288d6701236ef8a = $(`<div id="html_02be1ae55f594c9ab288d6701236ef8a" style="width: 100.0%; height: 100.0%;"><img src="https://source.unsplash.com/240x180/?river,loboc" width="240" height="180"></div>`)[0];
-                popup_22968401dfc53afe0b4561ff804323a3.setContent(html_02be1ae55f594c9ab288d6701236ef8a);
-            
-        
-
-        marker_ef3aeb6ced87232774c43c8d9faaea6f.bindPopup(popup_22968401dfc53afe0b4561ff804323a3)
-        ;
-
-        
-    
-    
-            marker_ef3aeb6ced87232774c43c8d9faaea6f.bindTooltip(
-                `<div>
-                     Loboc River
-Click for picture
-                 </div>`,
-                {"sticky": true}
-            );
-        
-</script>
+<script src="main.js"></script>
 </html>
