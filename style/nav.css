@@ -10,6 +10,7 @@ header {
   background-color: #ffffff;
   height: 50px;
   display: flex;
+  align-items: left;
   justify-content: space-between;
 }
 
