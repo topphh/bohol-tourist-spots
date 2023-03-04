@@ -27,12 +27,30 @@
     <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
 
-    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="style/general.css"/>
+    <link rel="stylesheet" href="style/searchbar.css"/>
+    <link rel="stylesheet" href="style/map.css"/>
+
     <meta name="viewport" content="width=device-width,initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 </head>
 <body>
-            <div id="title"><h2>Awesome Spots in Bohol</h2></div>
-            <div class="folium-map" id="map" ></div>
+
+    <div id="title"><h2>Awesome Spots in Bohol</h2></div>
+    <!--Navigation and Search bar-->
+    <div class="topnav">
+        <a class="active" href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+        <div class="search-container">
+          <form action="/action_page.php">
+            <input type="text" placeholder="Search.." name="search">
+            <button type="submit"><i class="fa fa-search"></i></button>
+          </form>
+        </div>
+      </div>
+    <!--Map-->
+    <div class="folium-map" id="map" ></div>
+
 </body>
 <script src="main.js"></script>
 </html>
