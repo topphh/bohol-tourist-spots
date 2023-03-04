@@ -78,4 +78,7 @@ ul li:hover {
   #brand {
     display: none;
   }
+  ul li {
+    margin-left: 3px;
+  }
 }
