@@ -6,7 +6,7 @@
         "latitude": "9.8174",
         "longitude": "124.1435",
         "description": "The hills are located throughout the towns of Carmen, Batuan and Sagbayan and consist of about 1,776 mounds of the same general shape. During the dry season when precipitation in inadequate,the grass-covered hills turn chocolate brown,hence the name in reference to a branded confection.",
-        "imageSource": ["res/images/chocolate-hills.jpg", "res/images/chocolate-hills2.jpg"]
+        "imageSource": ["res/images/chocolate-hills.jpg"]
     },
     {
         "name": "Sagbayan Peak",

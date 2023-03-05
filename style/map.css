@@ -4,30 +4,55 @@
     height: 100.0%;
     left: 0.0%;
     top: 0.0%;
-    border-width: 12px;
 }
 
 .leaflet-container { 
     font-size: 1rem; 
 }
 
+.leaflet-popup-content-wrapper {
+    padding: 0px;
+    width: 300px;
+}
+  
+.leaflet-popup-close-button {
+    padding-top: 1px;
+}
+
+.leaflet-popup-content {
+    padding: 0;
+    margin: 0;
+}
+
+#spot-popup {
+    padding: 0;
+    margin: 0;
+}
+
+#spot-images img{
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    width: 300px;
+    height: 180px;
+    object-fit: cover;
+}
 
 #spot-name {
     font-size: 22px;
-    padding: 0px;
-
+    padding: 0px 10px 0px 10px;
     margin: 0px;
 }
 
 #spot-address {
     margin: 0px;
-    padding: 0px;
+    padding: 0px 10px 0px 10px;
     font-size: 14px;
     color: rgb(77, 76, 76);
 }
 
 #spot-description {
-    padding-top: 12px;
+    padding: 12px 10px 10px 10px;
     font-size: 14px;
     text-align: justify;    
 }
+
