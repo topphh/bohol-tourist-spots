@@ -75,13 +75,7 @@ ul li:hover {
 }
 
 @media only screen and (max-width: 600px) {
-  #brand {
-    display: none;
-  }
   #searchbox {
-    width: 150px;
-  }
-  ul li {
-    margin-left: 20px;
+    width: 100px;
   }
 }
