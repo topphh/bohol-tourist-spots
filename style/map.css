@@ -11,3 +11,19 @@
     font-size: 1rem; 
 }
 
+#spot-description {
+    font-size: small;
+    text-align: justify;    
+}
+
+#spot-name {
+    font-size: medium;
+    text-align: center;
+    width: 100.0%; 
+    height: 100.0%;
+}
+
+#spot-img {
+    width: 240px;
+    height: 180px;
+}

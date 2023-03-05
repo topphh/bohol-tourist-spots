@@ -10,12 +10,6 @@ html, body {
     margin: 0;
     padding: 0;
     background-color: #ffffff;
-    color: white;
-    font-family: sans-serif;
-}
-
-body {
-    background-color: #ffffff;
-    color: white;
+    color: rgb(0, 0, 0);
     font-family: "Poppins", sans-serif;
 }
