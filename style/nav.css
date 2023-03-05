@@ -12,6 +12,7 @@ header {
   display: flex;
   align-items: left;
   justify-content: space-between;
+  width: 100%;
 }
 
 #title-desktop {
@@ -26,7 +27,7 @@ header {
   font-weight: bold;
   font-size: 24px;
   display: none;
-  margin-left: 25%;
+  margin-left: 20%;
   color: #09c372;
 }
 
@@ -63,7 +64,6 @@ ul li:hover {
 }
 
 #searchbox {
-  margin-right: 0px;
   border-radius: 5px;
   border-width: 1.5px;
   padding: 3px;
@@ -80,5 +80,8 @@ ul li:hover {
   }
   #searchbox {
     width: 60vw;
+  }
+  header {
+    padding: 0;
   }
 }
