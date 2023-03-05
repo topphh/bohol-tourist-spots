@@ -58,6 +58,9 @@ ul li:hover {
   padding: 1px 5px 1px 5px;
   border-radius: 5px;
 }
+#listview a {
+  color: #3867ff;
+}
 
 #mapview {
   border: 1px solid #00cbce;
@@ -65,12 +68,8 @@ ul li:hover {
   border-radius: 5px;
   
 }
-
 #mapview a {
   color: #00cbce;
-}
-#listview a {
-  color: #3867ff;
 }
 
 #searchbox {
