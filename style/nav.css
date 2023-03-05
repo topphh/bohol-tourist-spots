@@ -24,9 +24,9 @@ header {
 
 #title-mobile {
   font-weight: bold;
-  font-size: 18px;
+  font-size: 24px;
   display: none;
-  margin-left: 30%;
+  margin-left: 25%;
   color: #09c372;
 }
 
@@ -44,7 +44,7 @@ ul a {
 }
 
 ul li {
-  margin-left: 8px;
+  margin-left: 15px;
 }
 
 ul li:hover {
@@ -53,14 +53,9 @@ ul li:hover {
 }
 
 #listview {
-  border-radius: 5px;
-  padding: 5px 8px;
-}
-
-
-#listview {
   border: 1px solid #3867ff;
   padding: 1px 5px 1px 5px;
+  border-radius: 5px;
 }
 
 #listview a {
@@ -81,7 +76,7 @@ ul li:hover {
     display: none;
   }
   #title-mobile {
-    display: inline;
+    display: block;
   }
   #searchbox {
     width: 60vw;
