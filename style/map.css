@@ -11,19 +11,23 @@
     font-size: 1rem; 
 }
 
-#spot-description {
-    font-size: small;
-    text-align: justify;    
-}
 
 #spot-name {
-    font-size: medium;
-    text-align: center;
-    width: 100.0%; 
-    height: 100.0%;
+    font-size: 22px;
+    padding: 0px;
+
+    margin: 0px;
 }
 
-#spot-img {
-    width: 240px;
-    height: 180px;
+#spot-address {
+    margin: 0px;
+    padding: 0px;
+    font-size: 14px;
+    color: rgb(77, 76, 76);
+}
+
+#spot-description {
+    padding-top: 12px;
+    font-size: 14px;
+    text-align: justify;    
 }
