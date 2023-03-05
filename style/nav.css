@@ -14,14 +14,19 @@ header {
   justify-content: space-between;
 }
 
-#brand {
+#title-desktop {
   font-weight: bold;
   font-size: 18px;
   display: flex;
   align-items: center;
+  color: #09c372;
 }
 
-#brand a {
+#title-mobile {
+  font-weight: bold;
+  font-size: 18px;
+  display: none;
+  margin-left: 30%;
   color: #09c372;
 }
 
@@ -48,8 +53,6 @@ ul li:hover {
   transition: 0.3s;
 }
 
-
-#search,
 #listview {
   border-radius: 5px;
   padding: 5px 8px;
@@ -75,7 +78,13 @@ ul li:hover {
 }
 
 @media only screen and (max-width: 600px) {
+  #title-desktop {
+    display: none;
+  }
+  #title-mobile {
+    display: inline;
+  }
   #searchbox {
-    width: 100px;
+    width: 60vw;
   }
 }
