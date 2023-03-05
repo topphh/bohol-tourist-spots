@@ -5,7 +5,6 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
     <title>Bohol Tourist Spots</title>
     <link rel = "icon" href = "res/images/title-icon.png" type = "image/x-icon">
     <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
@@ -45,10 +44,8 @@
         <ul>  
           <li>
             <div class="search-container">
-                <form action="/action_page.php">
-                  <input type="text" placeholder="Search.." name="search" id="searchbox">
-                </form>
-              </div>
+              <input type="text" placeholder="Search.." name="search" id="search-box">
+            </div>
           </li>
           <li id="listview"><a href="./spot-list.html">List</a></li>
           <li><a href="./about.html">About</a></li>
@@ -57,6 +54,7 @@
     </header>
     <!--Map-->
     <div class="folium-map" id="map" ></div>
+    <script src="script/search.js"></script>
 </body>
 <script src="script/map.js"></script>
 </html>

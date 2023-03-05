@@ -25,7 +25,15 @@ fetch("res/spots-info.json")
           <div id="spot-description">${item.description}</div>
           </div>`)[0];
           const popup = L.popup({maxWidth: "100%"}).setContent(popup_html);
-          const spotmark = L.marker([item.latitude, item.longitude], {}).addTo(map).bindPopup(popup).bindTooltip(`<div>${item.name}</div>`, {sticky: true});
-          console.log(`${item.name}, ${item.address}, ${item.description}`);
-      });
+          const spotmark = L.marker([item.latitude, item.longitude], {})
+          .addTo(map)
+          .bindPopup(popup)
+          .bindTooltip(`<div>${item.name}</div>`, {sticky: false, permanent: true})
+          .on('popupopen', () => {
+            spotmark.closeTooltip();
+          })
+          .on('popupclose', () => {
+            spotmark.openTooltip();
+          });
+              });
   }).catch(error => console.error(error));

@@ -56,3 +56,23 @@
     text-align: justify;    
 }
 
+
+
+  /* Add a class for the glowing animation */
+  .tooltip-glow {
+    animation: tooltip-glow 2s ease-in-out infinite;
+  }
+  
+  /* Define the tooltip-glow animation */
+  @keyframes tooltip-glow {
+    0% {
+      box-shadow: 0 0 20px 10px rgba(255, 255, 0, 0.5);
+    }
+    50% {
+      box-shadow: 0 0 40px 20px rgba(255, 255, 0, 0.8);
+    }
+    100% {
+      box-shadow: 0 0 20px 10px rgba(255, 255, 0, 0.5);
+    }
+  }
+  
