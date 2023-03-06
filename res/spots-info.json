@@ -15,5 +15,29 @@
         "longitude": "124.05667",
         "description": "Sagbayan peak description",
         "imageSource": ["res/images/title-icon.png"]
+    },
+    {
+        "name": "St. Niño Parish Church",
+        "address": "Poblacion, Cortes",
+        "latitude": "9.722818149460592",
+        "longitude": "123.87918327956153",
+        "description": "St. Niño Parish Church description",
+        "imageSource": ["res/images/title-icon.png"]
+    },
+    {
+        "name": "Abatan River",
+        "address": "Poblacion, Cortes",
+        "latitude": "9.729297927975782",
+        "longitude": "123.8810300584366",
+        "description": "Abatan River description",
+        "imageSource": ["res/images/title-icon.png"]
+    },
+    {
+        "name": "Puwang Hills",
+        "address": "Fatima, Cortes",
+        "latitude": "9.721234364877457",
+        "longitude": "123.91630504350616",
+        "description": "Abatan River description",
+        "imageSource": ["res/images/title-icon.png"]
     }
 ]

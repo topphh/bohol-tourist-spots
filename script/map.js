@@ -13,27 +13,49 @@ L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
   subdomains: "abc",
 }).addTo(map);
 
-fetch("res/spots-info.json")
-  .then(response => response.json())
-  .then(data => {
+// Store a reference to the layer group
+const spotMarkers = L.layerGroup().addTo(map);
+
+function addMapLayer(title, images, subtitle, description, lat, long){
+  const imagesHTML = images.map(src => `<img  src="${src}">`).join('');
+  const popup_html = $(`<div id="spot-popup">
+  <div id="spot-images">${imagesHTML}</div>
+  <div id="spot-name">${title}</div>
+  <div id="spot-address">${subtitle}</div>
+  <div id="spot-description">${description}</div>
+  </div>`)[0];
+  const popup = L.popup({maxWidth: "100%"}).setContent(popup_html);
+  const spotmark = L.marker([lat, long], {})
+  .addTo(spotMarkers) // Add to layer group instead of map
+  .bindPopup(popup)
+  .bindTooltip(`<div>${title}</div>`, {sticky: false, permanent: true})
+  .on('popupopen', () => {
+    spotmark.closeTooltip();
+  })
+  .on('popupclose', () => {
+    spotmark.openTooltip();
+  });
+}
+
+function addSpottoMap(hotWord){
+  fetch("res/spots-info.json")
+    .then(response => response.json())
+    .then(data => {
       data.forEach(item => {
-          const imagesHTML = item.imageSource.map(src => `<img  src="${src}">`).join('');
-          const popup_html = $(`<div id="spot-popup">
-          <div id="spot-images">${imagesHTML}</div>
-          <div id="spot-name">${item.name}</div>
-          <div id="spot-address">${item.address}</div>
-          <div id="spot-description">${item.description}</div>
-          </div>`)[0];
-          const popup = L.popup({maxWidth: "100%"}).setContent(popup_html);
-          const spotmark = L.marker([item.latitude, item.longitude], {})
-          .addTo(map)
-          .bindPopup(popup)
-          .bindTooltip(`<div>${item.name}</div>`, {sticky: false, permanent: true})
-          .on('popupopen', () => {
-            spotmark.closeTooltip();
-          })
-          .on('popupclose', () => {
-            spotmark.openTooltip();
-          });
-              });
+        const spotID = `${item.name} ${item.address} ${item.latitude} ${item.longitude}`.toLowerCase();
+        if (spotID.includes(hotWord) || hotWord === "all") {
+          addMapLayer(item.name, item.imageSource, item.address, item.description, item.latitude, item.longitude);
+        }
+      });
   }).catch(error => console.error(error));
+}
+addSpottoMap("all");
+
+//Search Implementation
+const inputField = document.querySelector('input');
+inputField.addEventListener('input', () => {
+  //clear all overlay in map
+  const searchStr = inputField.value.toLowerCase();
+  spotMarkers.clearLayers();
+  addSpottoMap(searchStr);
+});
