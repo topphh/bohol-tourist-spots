@@ -12,28 +12,32 @@
     <!--Styles from local-->
     <link rel="stylesheet" href="style/general.css"/>
     <link rel="stylesheet" href="style/nav.css"/>
+    <link rel="stylesheet" href="style/about.css"/>
 
     <meta name="viewport" content="width=device-width,initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 </head>
 <body>
   <!--Navigation and Search bar-->
   <div id="title-mobile">Bohol Tourist Spots</div>
-  <header>
+  <header style="position: fixed; top: 0;">
     <div id="title-desktop">Bohol Tourist Spots</div>
       <nav>
         <ul>  
-          <li>
-            <div class="search-container">
-                <form action="/action_page.php">
-                  <input type="text" placeholder="Search.." name="search" id="searchbox">
-                </form>
-              </div>
-          </li>
           <li id="mapview"><a href="./">Map</a></li>
           <li id="listview"><a href="./spot-list.html">List</a></li>
         </ul>
       </nav>
     </header>
-    <div>Submitted By:</div>
+    <div class="container">
+      <h1>Submitted by</h1>
+      <ul class="name-ul" ondragover="event.preventDefault()" ondrop="drop(event)">
+        <li draggable="true" ondragstart="drag(event)">Cristopher Apoyon</li>
+        <li draggable="true" ondragstart="drag(event)">Ian Jay Hoylar</li>
+        <li draggable="true" ondragstart="drag(event)">Francis John Loretero</li>
+        <li draggable="true" ondragstart="drag(event)">Maria Jeziel Abe Quimpan</li>
+        <li draggable="true" ondragstart="drag(event)">Voily Joy Julapong</li>
+      </ul>
+    </div>
+    <script src="./script/about.js"></script>
 </body>
 </html>
