@@ -16,7 +16,7 @@ L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
 // Store a reference to the layer group
 const spotMarkers = L.layerGroup().addTo(map);
 
-function addMapLayer(title, images, subtitle, description, lat, long){
+function addMapLayer(title, images, subtitle, description, lat, long, isPermanent){
   const imagesHTML = images.map(src => `<img  src="${src}">`).join('');
   const popup_html = $(`<div id="spot-popup">
   <div id="spot-images">${imagesHTML}</div>
@@ -28,7 +28,7 @@ function addMapLayer(title, images, subtitle, description, lat, long){
   const spotmark = L.marker([lat, long], {})
   .addTo(spotMarkers) // Add to layer group instead of map
   .bindPopup(popup)
-  .bindTooltip(`<div>${title}</div>`, {sticky: false, permanent: true})
+  .bindTooltip(`<div>${title}</div>`, {sticky: false, permanent: isPermanent})
   .on('popupopen', () => {
     spotmark.closeTooltip();
   })
@@ -44,7 +44,8 @@ function addSpottoMap(hotWord){
       data.forEach(item => {
         const spotID = `${item.name} ${item.address} ${item.latitude} ${item.longitude}`.toLowerCase();
         if (spotID.includes(hotWord) || hotWord === "all") {
-          addMapLayer(item.name, item.imageSource, item.address, item.description, item.latitude, item.longitude);
+          var isPermanent = !(hotWord === "all" || hotWord == '');
+          addMapLayer(item.name, item.imageSource, item.address, item.description, item.latitude, item.longitude, isPermanent);
         }
       });
   }).catch(error => console.error(error));
