@@ -16,6 +16,7 @@ table {
     background-color: #f8f8f8;
     border: 1px solid #ddd;
     padding: .35em;
+    
   }
   
   table th,
@@ -36,7 +37,7 @@ table {
     }
   
     table caption {
-      font-size: 1.3em;
+      font-size: 1em;
     }
     
     table thead {
@@ -70,7 +71,7 @@ table {
       */
       content: attr(data-label);
       float: left;
-      font-weight: bold;
+      font-weight: bolder;
       text-transform: uppercase;
     }
     
@@ -80,20 +81,39 @@ table {
   }
   
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  /* general styling */
-  body {
-    font-family: "Open Sans", sans-serif;
-    line-height: 1.25;
+
+  /* Animations */
+  tr {
+    opacity: 0;
+    transform: translateY(-10%);
+    animation: slide-down 0.5s ease forwards;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
   }
+  
+  @keyframes slide-down {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  table tr:hover {
+    background-color: #f2f2f2; /* change to the desired background color */
+  }
+  
+  /* Hide and show extra infor when hover */
+  td.truncate {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 200px; /* change to the desired maximum width */
+  }
+  
+  td.truncate:hover {
+    max-width: none;
+    white-space: normal;
+    overflow: visible;
+  }
+  
+  
