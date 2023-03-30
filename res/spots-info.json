@@ -49,6 +49,7 @@
         "longitude": "123.99917",
         "description": "One of the three orphan churches in Bohol built in the 20th century American colonial   era and is considered as a post colonial church.",
         "imageSource": ["res/BOHOL/CAT/CAT-CHURCH.jpg"]
+    },
     {
         "name": "Bet 'n Choy Farm and Resort",
         "address": "Poblacion, Catigbian, Bohol",
@@ -87,7 +88,7 @@
         "latitude": "9.6405121",
         "longitude": "123.856203",
         "description": "Built of lime, stone and bricks, construction of the building began in 1855 and was completed in 1860 under the term of Gobernadorcillo Esteban Butalid.",
-        "imageSource": ["res/BOHOL/TAGB/CAT-MUSEUM.jpg"]
+        "imageSource": ["res/BOHOL/TAGB/TAGB-MUSEUM.jpg"]
     },
     {
         "name": "St. Joseph Cathedral",
@@ -95,7 +96,7 @@
         "latitude": "9.6392",
         "longitude": "123.8557",
         "description": "The Cathedral of St. Joseph the Worker is the main seat of the Catholic faith in Bohol, with the church bearing the name of the province’s patron saint.",
-        "imageSource": ["res/BOHOL/TAGB/CAT-CHURCH.jpg"]
+        "imageSource": ["res/BOHOL/TAGB/TAGB-CHURCH.jpg"]
     },
     {
         "name": "Blood Compact Shrine",
@@ -103,7 +104,7 @@
         "latitude": "9.6275",
         "longitude": "123.8792",
         "description": "This particular site was made in honor of a very important event in the Philippine history done between Miguel Lopez de Legazpi of Spain and Rajah Sikatuna of Bohol.",
-        "imageSource": ["res/BOHOL/TAGB/CAT-BLOOD.jpg"]
+        "imageSource": ["res/BOHOL/TAGB/TAGB-BLOOD.jpg"]
     },
 
     {
@@ -112,7 +113,7 @@
         "latitude": "9.659376463042399",
         "longitude": "123.84541813985733",
         "description": "Is a swimming spot or beach in Tagbilaran City.",
-        "imageSource": ["res/BOHOL/TAGB/CAT-BOOY.jpg"]
+        "imageSource": ["res/BOHOL/TAGB/TAGB-BOOY.jpg"]
     },
 
     {
@@ -121,7 +122,7 @@
         "latitude": "9.63982871895",
         "longitude": "123.856450658",
         "description": "A once simple estate situated in front of the Tagbilaran Cathedral Church and the former Provincial Capitol building, the Plaza Rizal was established in 1860 and laid out in conformity with the 1573 ordinance of King Philip II imposed on Spanish colonies.",
-        "imageSource": ["res/BOHOL/TAGB/CAT-PARK.jpg"]
+        "imageSource": ["res/BOHOL/TAGB/TAGB-PARK.jpg"]
     },
     {
         "name": "St. Nino Parish Church",
