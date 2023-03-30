@@ -5,7 +5,7 @@
         "latitude": "9.57838303476675",
         "longitude": "123.746001546687",
         "description": "St. Augustine Church Panglao is a historic church located in the town of Panglao on the island of Bohol, Philippines. It was built during the Spanish colonial era and is known for its unique architecture, which combines both Baroque and Neoclassical styles. The church's interior is adorned with intricate carvings and decorations, including a large fresco of the Last Supper. St. Augustine Church is considered a significant cultural landmark on the island and is frequently visited by tourists.",
-        "imageSource": ["res/images/title-icon.png"]
+        "imageSource": ["res/BOHOL/PANG/PANG-CHURCH.jpg"]
     
     },
     {
@@ -14,7 +14,7 @@
         "latitude": "123.747390197529",
         "longitude": "123.746001546687",
         "description": "The Old Panglao Municipal Building is another historic site located in the town of Panglao. It was constructed during the early 1900s and served as the municipal government's administrative headquarters until the 1980s. Today, the building remains intact and is a popular attraction for visitors interested in Philippine history and architecture.",
-        "imageSource": ["res/images/title-icon.png"]
+        "imageSource": ["res/BOHOL/PANG/PANG-HALL.jpg"]
     },
    
     {
@@ -23,7 +23,7 @@
         "latitude": "9.57794743759838",
         "longitude": "123.74483235662",
         "description": "The Panglao Watchtower is a stone tower located near the bay, overlooking the sea. It was constructed during the Spanish colonial era and served as a lookout point to warn the locals of incoming pirates. Today, the watchtower has been restored and is open to visitors who wish to learn more about the island's history.",
-        "imageSource": ["res/images/title-icon.png"]
+        "imageSource": ["res/BOHOL/PANG/PANG-WATCH.jpg"]
     },
     {
         "name": "Alona Beach Panglao",
@@ -31,7 +31,7 @@
         "latitude": "9.54813549061189",
         "longitude": "123.77182969792",
         "description": "Alona Beach Panglao is a popular tourist destination located on the southwestern tip of the island of Panglao. It is known for its long stretch of white sand beach, crystal-clear waters, and numerous resorts and restaurants. Alona Beach is a popular spot for swimming, snorkeling, and scuba diving, and is often crowded with tourists during the peak season.",
-        "imageSource": ["res/images/title-icon.png"]
+        "imageSource": ["res/BOHOL/PANG/PANG-ALONA.jpg"]
     },
     {
         "name": "Doljo Beach Panglao",
@@ -39,31 +39,23 @@
         "latitude": "9.58888591926997",
         "longitude": "123.725753172194",
         "description": "Doljo Beach Panglao is another beach destination located on the northwestern side of the island. It is less crowded than Alona Beach and is known for its quiet, serene atmosphere. The beach is lined with coconut trees and offers stunning views of the surrounding waters. Doljo Beach is an excellent spot for swimming, sunbathing, and watching the sunset.",
-        "imageSource": ["res/images/title-icon.png"]
+        "imageSource": ["res/BOHOL/PANG/PANG-DOLJO.jpg"]
     },
-    {
-        "name": "Doljo Beach Panglao",
-        "address": "Poblacion, Panglao, Bohol",
-        "latitude": "9.58888591926997",
-        "longitude": "123.725753172194",
-        "description": "Doljo Beach Panglao is another beach destination located on the northwestern side of the island. It is less crowded than Alona Beach and is known for its quiet, serene atmosphere. The beach is lined with coconut trees and offers stunning views of the surrounding waters. Doljo Beach is an excellent spot for swimming, sunbathing, and watching the sunset.",
-        "imageSource": ["res/images/title-icon.png"]
-    },
+
     {
         "name": "Immaculate Conception Parish Church",
         "address": "Poblacion Weste, Catigbian, Bohol",
         "latitude": "9.85087",
         "longitude": "123.99917",
         "description": "One of the three orphan churches in Bohol built in the 20th century American colonial   era and is considered as a post colonial church.",
-        "imageSource": ["res/images/title-icon.png"]
-    },
+        "imageSource": ["res/BOHOL/CAT/CAT-CHURCH.jpg"]
     {
         "name": "Bet 'n Choy Farm and Resort",
         "address": "Poblacion, Catigbian, Bohol",
         "latitude": "9.86018457064",
         "longitude": "123.997245217",
         "description": "Includes 3 swimming pools, a long water slide, huts for rent, a splash playground or interactive water feature, a function hall, a concession stand offering drinks and snacks and the typical amenities such as restrooms.",
-        "imageSource": ["res/images/title-icon.png"]
+        "imageSource": ["res/BOHOL/CAT/CAT-BETIN.jpg"]
     },
     {
         "name": "Elizabeth Mountain View Flower Resort",
@@ -71,7 +63,7 @@
         "latitude": "9.8274253",
         "longitude": "124.0613037",
         "description": "This 3 hectares flower resort has 800 steps to scale with an overlooking tower at the top and a museum collection of Asian, Middle Eastern and local  ethnics.",
-        "imageSource": ["res/images/title-icon.png"]
+        "imageSource": ["res/BOHOL/CAT/CAT-MOUNTAIN.jpg"]
     },
     {
         "name": "D.A.T.E. Park Catigbian",
@@ -79,7 +71,7 @@
         "latitude": "9.8574253",
         "longitude": "123.9935607",
         "description": "Tucked in a lush countryside, the  DATE Park offers  every visitor a thrilling adventures in the forest.",
-        "imageSource": ["res/images/title-icon.png"]
+        "imageSource": ["res/BOHOL/CAT/CAT-DATE.jpg"]
     },
     {
         "name": "Catigbian Municipal Hall",
@@ -87,7 +79,7 @@
         "latitude": "9.8591139",
         "longitude": "124.0056735",
         "description": "It was designed by Ar Nino Guidaben and was was funded thru Bohol Earthquake Assistance (BEA). it was made after the 7.2 magnitude earthquake happened in the province  of Bohol.",
-        "imageSource": ["res/images/title-icon.png"]
+        "imageSource": ["res/BOHOL/CAT/CAT-HALL.jpg"]
     },
     {
         "name": "National Museum",
@@ -95,7 +87,7 @@
         "latitude": "9.6405121",
         "longitude": "123.856203",
         "description": "Built of lime, stone and bricks, construction of the building began in 1855 and was completed in 1860 under the term of Gobernadorcillo Esteban Butalid.",
-        "imageSource": ["res/images/title-icon.png"]
+        "imageSource": ["res/BOHOL/TAGB/CAT-MUSEUM.jpg"]
     },
     {
         "name": "St. Joseph Cathedral",
@@ -103,7 +95,7 @@
         "latitude": "9.6392",
         "longitude": "123.8557",
         "description": "The Cathedral of St. Joseph the Worker is the main seat of the Catholic faith in Bohol, with the church bearing the name of the province’s patron saint.",
-        "imageSource": ["res/images/title-icon.png"]
+        "imageSource": ["res/BOHOL/TAGB/CAT-CHURCH.jpg"]
     },
     {
         "name": "Blood Compact Shrine",
@@ -111,16 +103,16 @@
         "latitude": "9.6275",
         "longitude": "123.8792",
         "description": "This particular site was made in honor of a very important event in the Philippine history done between Miguel Lopez de Legazpi of Spain and Rajah Sikatuna of Bohol.",
-        "imageSource": ["res/images/title-icon.png"]
+        "imageSource": ["res/BOHOL/TAGB/CAT-BLOOD.jpg"]
     },
 
     {
         "name": "Family Beach",
         "address": "Booy, Tagbilaran City, Bohol",
-        "latitude": "9.5522136",
-        "longitude": "123.771526",
-        "description": "Is a swimming pool or beach in Tagbilaran City.",
-        "imageSource": ["res/images/title-icon.png"]
+        "latitude": "9.659376463042399",
+        "longitude": "123.84541813985733",
+        "description": "Is a swimming spot or beach in Tagbilaran City.",
+        "imageSource": ["res/BOHOL/TAGB/CAT-BOOY.jpg"]
     },
 
     {
@@ -129,7 +121,7 @@
         "latitude": "9.63982871895",
         "longitude": "123.856450658",
         "description": "A once simple estate situated in front of the Tagbilaran Cathedral Church and the former Provincial Capitol building, the Plaza Rizal was established in 1860 and laid out in conformity with the 1573 ordinance of King Philip II imposed on Spanish colonies.",
-        "imageSource": ["res/images/title-icon.png"]
+        "imageSource": ["res/BOHOL/TAGB/CAT-PARK.jpg"]
     },
     {
         "name": "St. Nino Parish Church",
@@ -137,7 +129,7 @@
         "latitude": "9.72278076898889",
         "longitude": "123.879113851757",
         "description": "St. Nino Parish Church in Cortes, Bohol is a beautiful Spanish Colonial era church dedicated to the Holy Child, Sto. Nino. It features a Baroque architectural style with intricate details and ornate carvings. Inside, visitors can admire the elegant altar, stained glass windows, and serene atmosphere. The church is a significant religious and cultural landmark, blending Spanish and Filipino cultures. It's a must-visit for history, culture, and architecture enthusiasts.",
-        "imageSource": ["res/images/title-icon.png"]
+        "imageSource": ["res/BOHOL/CORT/CORT-CHURCH.jpg"]
     },
     {
         "name": "Abatan River",
@@ -145,7 +137,7 @@
         "latitude": "9.72542353657407",
         "longitude": "123.880105204774",
         "description": "Discover a unique eco-cultural experience in Bohol's Cortes with a guided boat tour at Abatan River. Witness traditional fishing practices and watch craftsmen make handicrafts from nipa palm leaves amidst a lush mangrove forest. A must-visit for nature and culture enthusiasts.",
-        "imageSource": ["res/images/title-icon.png"]
+        "imageSource": ["res/BOHOL/CORT/CORT-ABATAN.jpg"]
     },
     {
         "name": "Malingin Falls",
@@ -153,7 +145,7 @@
         "latitude": "9.74111145379259",
         "longitude": "123.940717315412",
         "description": "Experience the beauty of nature in Cortes, Bohol with a visit to Malingin Falls. Surrounded by lush greenery, this stunning waterfall cascades into a refreshing pool, perfect for swimming and relaxing. Visitors can also trek through the lush jungle to reach the falls and immerse themselves in the natural beauty of the area. A must-visit destination for nature lovers and adventure seekers.",
-        "imageSource": ["res/images/title-icon.png"]
+        "imageSource": ["res/BOHOL/CORT/CORT-FALLS.jpg"]
     },
     {
         "name": "Uhan Spring",
@@ -161,7 +153,7 @@
         "latitude": "9.70751307082776",
         "longitude": "123.892629110656",
         "description": "Visit Uhan Spring in Cortes, Bohol, and enjoy a refreshing dip in its crystal-clear waters. Nestled in a serene setting surrounded by towering trees, Uhan Spring provides a peaceful and relaxing atmosphere. Visitors can also explore the nearby cave, rock formations, and lush greenery. A perfect spot for those who seek relaxation and immersion in nature.",
-        "imageSource": ["res/images/title-icon.png"]
+        "imageSource": ["res/BOHOL/CORT/CORT-SPRING.jpg"]
     },
     {
         "name": "Puwang Hills",
@@ -169,7 +161,7 @@
         "latitude": "9.72097901140539",
         "longitude": "123.916173910656",
         "description": "Get a breathtaking view of Cortes, Bohol from Puwang Hills. The stunning rolling hills offer a panoramic view of the town, the river, and the surrounding lush greenery. Visitors can trek through the hills and enjoy the scenic beauty of the area. A perfect spot for photography and nature enthusiasts seeking a peaceful and serene atmosphere.",
-        "imageSource": ["res/images/title-icon.png"]
+        "imageSource": ["res/BOHOL/CORT/CORT-HILLS.jpg"]
     },
     {
         "name": "Saint Isidore The Farmer Parish",
@@ -177,7 +169,7 @@
         "latitude": "9.950572402813652",
         "longitude": "123.9624116078945",
         "description": "It was formally constituted a town in 1819 from barrios of Calape and Inabanga, and became a parish under the Recollects in 1854. All through the intervening years, priests visited the town for Sunday Mass. No clear dates are available for the construction of the church.",
-        "imageSource": ["res/images/title-icon.png"]
+        "imageSource": ["res/BOHOL/TUB/TUB-CHURCH.jpg"]
     },
     {
         "name": "Macaas Boardwalk",
@@ -185,7 +177,7 @@
         "latitude": "9.96540128253432",
         "longitude": "123.99481031182253",
         "description": "A 500 meters boardwalk built around the mangroves forest of Barangay Macaas, Tubigon, Bohol where the river runs through. It’s a perfect place to watch the sunset and chill, or you can spend your time gleaning seashells when its low tide.",
-        "imageSource": ["res/images/title-icon.png"]
+        "imageSource": ["res/BOHOL/TUB/TUB-BOARDWALK.jpg"]
     },
     {
         "name": "Bidong Enterprise",
@@ -193,7 +185,7 @@
         "latitude": "9.952415858432229",
         "longitude": "123.96255610257305",
         "description": "A well-known business that has been in existence for over four decades, it gets more customers due of its service and honesty. It specializes on selling local things for fishing.",
-        "imageSource": ["res/images/title-icon.png"]
+        "imageSource": ["res/BOHOL/TUB/TUB-BIDONG.jpg"]
     },
     {
         "name": "Cabu Beach Resort",
@@ -201,7 +193,7 @@
         "latitude": "9.960718509659849",
         "longitude": "123.98283560892921",
         "description": "A full service holiday lodging facility, located at the seaside, with access to a private beach. The beach being the primary focus for tourists.",
-        "imageSource": ["res/images/title-icon.png"]
+        "imageSource": ["res/BOHOL/TUB/TUB-CABU.jpg"]
     },
 
     {
@@ -210,6 +202,6 @@
         "latitude": "9.932610827419756",
         "longitude": "123.96744179189987",
         "description": "Magsaysay Road in Tubigon is one of the best vistas in town, with a great resort and a favorite hangout for people of all ages.",
-        "imageSource": ["res/images/title-icon.png"]
+        "imageSource": ["res/BOHOL/TUB/TUB-MAGSAYSAY.jpg"]
     }
 ]
